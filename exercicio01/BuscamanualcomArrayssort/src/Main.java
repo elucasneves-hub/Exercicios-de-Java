@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        int vet[]= {2,7,8,5,9,4,77};
-        Arrays.sort(vet);
-        for (int c=0; c < vet.length; c++) {
-            if ( vet[c] %  2 == 0) {
-                System.out.println("na posição " + c + "temos " + vet[c] +  " que é par " ) ;
+        int vetor[]= {2,7,8,5,9,4,77};
+        Arrays.sort(vetor);
+        for (int c=0; c < vetor.length; c++) {
+            if ( vetor[c] %  2 == 0) {
+                System.out.println("na posição " + c + "temos " + vetor[c] +  " que é par " ) ;
             }
         }
     }
